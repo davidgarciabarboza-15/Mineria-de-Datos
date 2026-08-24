@@ -17,7 +17,7 @@ El archivo original contiene **7,893 filas (sismos)** y **22 columnas**, con reg
 
 ## 2. Lo que reveló el diagnóstico
 
-Antes de limpiar, se hicieron pruebas y en ellas se desarrollo un pequeño script de diagnóstico para visualizar los datos e identificar que era lo que se debía incluir en la limpieza (también se usó levemente excel para visualizar un poco), y al final este script se incluyo en la versión final junto con la limpieza. En el diagnóstico podemos destacar los siguientes puntos:
+Antes de limpiar, se hicieron pruebas y en ellas se desarrollo un pequeño script de diagnóstico para visualizar los datos e identificar que era lo que se debía incluir en la limpieza (también se usó levemente excel para visualizar un poco), y al final este script de diagnóstico se incluyo en la versión final junto con la limpieza (En resumen Earthquake.csv -> Clean_Earthquake.py -> Earthquake_limpio.csv). En el diagnóstico podemos destacar los siguientes puntos:
 
 1. **Fechas como texto:** `time` y `updated` se cargaban como texto, no como fechas reales.
 2. **Valores nulos:** `nst` (1,188 nulos), `magError` (133), `gap` (2), `dmin` (2), `rms` (2).
