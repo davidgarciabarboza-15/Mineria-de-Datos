@@ -1,6 +1,6 @@
 # Práctica 1 – Limpieza de Datos: Justificación de decisiones
 
-**Dataset:** `Earthquake.csv` (sismos registrados por el USGS entre 2020 y 2026)
+**Dataset:** `Earthquake.csv` (sismos registrados en México y alrededores por el USGS entre 2020 y 2026)
 **Script completo:** `Clean_Earthquake.py`
 **Resultado:** `Earthquake_limpio.csv` (el archivo original **nunca** se modifica)
 
